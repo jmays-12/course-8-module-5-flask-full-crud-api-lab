@@ -45,10 +45,6 @@ def update_event(event_id):
         return "Error, event not found", 404
 
 
-# TODO: Task 1 - Define the Problem
-# Remove an event from the list
-
-
 @app.route("/events/<int:event_id>", methods=["DELETE"])
 def delete_event(event_id):
 
